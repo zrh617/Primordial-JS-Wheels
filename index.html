@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <div id="aaa">
+      <ul id="uuu">
+        <li id="li1" class="red">1</li>
+        <li id="li2" class="red">2</li>
+        <li id="li3" class="red">3</li>
+      </ul>
+    </div>
+  </div>
+  <script type="module">
+    import dom from './lib/dom'
+    const div = document.getElementById('aaa')
+    const el = document.getElementById('li3')
+    const uu = document.getElementsByTagName('ul')
+    const ii = document.querySelector('li')
+    const index = dom.index(el);
+    const elem = dom.uniqueClass(ii, "red")
+    const html = document.querySelector('html')
+    // const node = dom.create(html,'span')
+    // dom.create(div, el)
+    // const arr = [ii,el]
+    // dom.prepend(div,arr)
+    // dom.removeChildren(div)
+    // dom.append(html,ii)
+    // div.addEventListener("cat", function(e) {
+    //   setTimeout(()=>{
+    //     console.log(111);
+    //   },1000)
+    // })
+    // dom.dispatchEvent(div, "cat")
+  </script>
+</body>
+</html>
