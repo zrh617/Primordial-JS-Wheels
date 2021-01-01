@@ -32,3 +32,9 @@
     i. [JavaScript](https://github.com/zrh617/Primordial-JS-Wheels/blob/main/lib/calendar/index.js)
 
     ii. [HTML+CSS](https://github.com/zrh617/Primordial-JS-Wheels/blob/main/demos/calendar.html)
+    
+7. Image-Picker 的源码      
+
+    i. [JavaScript](https://github.com/zrh617/Primordial-JS-Wheels/blob/main/lib/image-picker/index.js)
+    
+    ii. [HTML+CSS](https://github.com/zrh617/Primordial-JS-Wheels/blob/main/demos/image-picker.html)
