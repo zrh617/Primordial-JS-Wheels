@@ -101,15 +101,15 @@
   new ImagePicker({
     element: document.querySelector('.image-picker'),
     upload: {
-      url: '',
+      url: 'https://github.com/zrh617/image-server/upload',
       method: 'PUT',
       inputName: 'file'
     },
     parseResponse: (response) => {
       response = JSON.parse(response)
-      return `https://frankfang.com/image-server/upload/${response.key}`
+      return `https://github.com/zrh617/image-server/${response.key}`
     },
-    fallbackImage: ''
+    fallbackImage: 'https://avatars0.githubusercontent.com/u/839559'
   })
 </script>
 </html>
